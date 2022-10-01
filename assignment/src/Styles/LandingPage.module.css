@@ -1,0 +1,21 @@
+.landingPage_sectionCont {
+  width: 65%;
+  /* border: 1px red solid; */
+  margin: auto;
+  margin-top: 5rem;
+
+}
+
+.landingPage_sectionTitle {
+    width: 100%;
+    /* border: 1px red solid; */
+    margin: auto;
+    font-family: muli, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    
+
+  }
+  

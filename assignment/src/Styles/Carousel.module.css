@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.mainCard_cont {
+  display: flex;
+  position: relative;
+  width: 60%;
+  padding: 0 15px;
+  margin: auto;
+  color: green;
+  border: 1px red solid;
+}
+.mainInner_div {
+  display: flex;
+  overflow: hidden;
+  height: 400px;
+  margin: 20px auto;
+  border-radius: 15px;
+  align-items: stretch;
+  position: relative;
+  border: 1px red solid;
+  background: black;
+}
+.slideCard_div {
+  width: 25%;
+  position: relative;
+  transition: 0.2s;
+  z-index: 3;
+}
+
+.slideCard_div:hover {
+  position: relative;
+  transition: all 0.2s ease;
+  width: 50%;
+}
+
+/* .slideCard_div:not(:hover) {
+  width: 25%;
+} */
+
+.slideCard_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+/* img {
+    vertical-align: middle;
+    border-style: none;
+} */
+
+.slideCardHeading {
+  position: absolute;
+  padding: 0.5rem 2rem;
+  color: white;
+}
+
+
+/* ================================================> */
